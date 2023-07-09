@@ -1,0 +1,5 @@
+AUTH_URL = https:/$()/google.com/
+BASE_URL = https:/$()/google.com/
+PRODUCT_NAME = BENT
+DISPLAY_NAME = DEV BENT
+PRODUCT_BUNDLE_IDENTIFIER = com.lanternapps.bent.BentOnboarding.dev

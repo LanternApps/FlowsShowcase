@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "defaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Defaults",
+      "state" : {
+        "revision" : "0f5a23fcbd83eb72f6d405aa85bbfacaffb99b03",
+        "version" : "7.2.0"
+      }
+    },
+    {
+      "identity" : "sharedcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LanternApps/SharedCore",
+      "state" : {
+        "branch" : "main",
+        "revision" : "aa58f6c32541e982cbf51245472072e1eafb11d5"
+      }
+    },
+    {
+      "identity" : "sharedui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LanternApps/SharedUI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "776a4d79a390b20a09b9140bbb07f2e565792f4c"
+      }
+    },
+    {
+      "identity" : "smoothoperators",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Pyroh/SmoothOperators",
+      "state" : {
+        "revision" : "dd013309755d75d8636fd7fb89bb25da34b92c7e",
+        "version" : "0.20.0"
+      }
+    }
+  ],
+  "version" : 2
+}
