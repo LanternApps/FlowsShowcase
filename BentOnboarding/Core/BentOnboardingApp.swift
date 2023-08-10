@@ -8,6 +8,7 @@
 import SwiftUI
 import SharedUI
 import SharedCore
+import SwiftUIFlows
 
 @main
 struct BentOnboardingApp: App {

@@ -15,7 +15,7 @@
       "location" : "https://github.com/LanternApps/SharedCore",
       "state" : {
         "branch" : "main",
-        "revision" : "aa58f6c32541e982cbf51245472072e1eafb11d5"
+        "revision" : "c61d7b93710a0ae6cbabd5236151725d1e8be7ab"
       }
     },
     {
@@ -24,7 +24,7 @@
       "location" : "https://github.com/LanternApps/SharedUI",
       "state" : {
         "branch" : "main",
-        "revision" : "776a4d79a390b20a09b9140bbb07f2e565792f4c"
+        "revision" : "192e54420bf490c00866aa8a3c3a21b471a41aba"
       }
     },
     {
@@ -34,6 +34,24 @@
       "state" : {
         "revision" : "dd013309755d75d8636fd7fb89bb25da34b92c7e",
         "version" : "0.20.0"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect",
+      "state" : {
+        "revision" : "ccb973cfff703cba53fb88197413485c060eb26b",
+        "version" : "0.10.0"
+      }
+    },
+    {
+      "identity" : "swiftuiflows",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lonkly/SwiftUIFlows",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3c2ac25bfd5ff716f808088cde8cb773ca2c1981"
       }
     }
   ],

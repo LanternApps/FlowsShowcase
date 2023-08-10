@@ -34,6 +34,7 @@
 		7D6E3C4B2A5B62EE00013148 /* VerifyPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E3C4A2A5B62EE00013148 /* VerifyPhoneView.swift */; };
 		7D6E3C4D2A5B69CF00013148 /* VerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E3C4C2A5B69CF00013148 /* VerifiedView.swift */; };
 		7D6E3C4F2A5B6F5B00013148 /* NavigationAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E3C4E2A5B6F5B00013148 /* NavigationAppearence.swift */; };
+		7DD51FF02A84742B00BDFAFD /* SwiftUIFlows in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD51FEF2A84742B00BDFAFD /* SwiftUIFlows */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6E3C362A5B38E500013148 /* SharedCore in Frameworks */,
+				7DD51FF02A84742B00BDFAFD /* SwiftUIFlows in Frameworks */,
 				7D6E3C0C2A5AFA4F00013148 /* SharedUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +221,7 @@
 			packageProductDependencies = (
 				7D6E3C0B2A5AFA4F00013148 /* SharedUI */,
 				7D6E3C352A5B38E500013148 /* SharedCore */,
+				7DD51FEF2A84742B00BDFAFD /* SwiftUIFlows */,
 			);
 			productName = BentOnboarding;
 			productReference = 7D6E3BF62A5AFA1700013148 /* BentOnboarding.app */;
@@ -251,6 +254,7 @@
 			packageReferences = (
 				7D6E3C0A2A5AFA4F00013148 /* XCRemoteSwiftPackageReference "SharedUI" */,
 				7D6E3C342A5B38E500013148 /* XCRemoteSwiftPackageReference "SharedCore" */,
+				7DD51FEE2A84742B00BDFAFD /* XCRemoteSwiftPackageReference "SwiftUIFlows" */,
 			);
 			productRefGroup = 7D6E3BF72A5AFA1700013148 /* Products */;
 			projectDirPath = "";
@@ -432,7 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BentOnboarding/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FJ6FZ48B5;
+				DEVELOPMENT_TEAM = RD4R924PK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BentOnboarding/Resources/Info.plist;
@@ -443,6 +447,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BentOnboarding/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FJ6FZ48B5;
+				DEVELOPMENT_TEAM = RD4R924PK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BentOnboarding/Resources/Info.plist;
@@ -476,6 +481,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +535,14 @@
 				kind = branch;
 			};
 		};
+		7DD51FEE2A84742B00BDFAFD /* XCRemoteSwiftPackageReference "SwiftUIFlows" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lonkly/SwiftUIFlows";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -541,6 +555,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D6E3C342A5B38E500013148 /* XCRemoteSwiftPackageReference "SharedCore" */;
 			productName = SharedCore;
+		};
+		7DD51FEF2A84742B00BDFAFD /* SwiftUIFlows */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DD51FEE2A84742B00BDFAFD /* XCRemoteSwiftPackageReference "SwiftUIFlows" */;
+			productName = SwiftUIFlows;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
